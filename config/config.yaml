@@ -1,0 +1,10 @@
+artifacts_root: artifacts
+#Artifact, bir yazılım ya da makine öğrenmesi projesi geliştirilirken ortaya çıkan herhangi bir dosya, çıktı veya üründür.
+
+#Bu çıktı, ham veri dosyası olabilir, eğitilmiş model olabilir, bir görselleştirme, rapor ya da .pkl, .csv, .json, .h5, .pt gibi bir dosya da olabilir.
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
