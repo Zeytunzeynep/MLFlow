@@ -14,20 +14,23 @@ class DataTransformationTrainingPipeline:
     def main(self):
         try:
             with open(Path("artifacts/data_validation/status.txt") , "r") as f:
-              status = f.read().split(" ")[-1]
+              status = f.read().strip()
 
-            if status == "True":
+            if status.endswith("True"):
+                print(f"its working")
                 config= ConfigurationManager()
                 data_transformation_config = config.get_data_transformation_config()
                 data_transformation = DataTransformation(config = data_transformation_config)
                 data_transformation.train_test_spliting()
             
-            elif status== "False":
+            elif status.endswith("False"):
+                print(f"it is not working")
                 raise Exception("data schema is not valid")
 
 
             else :
-               print(f"{status}")
+               
+               print(f"what hell is that : {status}")
 
 
         except Exception as e:
