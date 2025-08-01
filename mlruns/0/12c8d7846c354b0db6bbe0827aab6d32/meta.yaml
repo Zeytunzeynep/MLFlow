@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zeyne/MLFlow/mlruns/0/12c8d7846c354b0db6bbe0827aab6d32/artifacts
+end_time: 1754071695538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12c8d7846c354b0db6bbe0827aab6d32
+run_name: lyrical-cat-54
+run_uuid: 12c8d7846c354b0db6bbe0827aab6d32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754071695397
+status: 3
+tags: []
+user_id: zeyne

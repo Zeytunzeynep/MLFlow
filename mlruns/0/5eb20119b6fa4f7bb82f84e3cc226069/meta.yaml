@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zeyne/MLFlow/mlruns/0/5eb20119b6fa4f7bb82f84e3cc226069/artifacts
+end_time: 1754069924725
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5eb20119b6fa4f7bb82f84e3cc226069
+run_name: bustling-zebra-878
+run_uuid: 5eb20119b6fa4f7bb82f84e3cc226069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754069924631
+status: 3
+tags: []
+user_id: zeyne

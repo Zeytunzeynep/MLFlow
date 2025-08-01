@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zeyne/MLFlow/mlruns/0/a41d8405d2834f0c9d5e4fbc24644bab/artifacts
+end_time: 1754070602105
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a41d8405d2834f0c9d5e4fbc24644bab
+run_name: mysterious-auk-10
+run_uuid: a41d8405d2834f0c9d5e4fbc24644bab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754070601989
+status: 4
+tags: []
+user_id: zeyne

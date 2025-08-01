@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zeyne/MLFlow/mlruns/0/cec18870b45d459d97ee026c2c1d38e2/artifacts
+end_time: 1754070867432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cec18870b45d459d97ee026c2c1d38e2
+run_name: spiffy-crane-688
+run_uuid: cec18870b45d459d97ee026c2c1d38e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754070867339
+status: 3
+tags: []
+user_id: zeyne

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zeyne/MLFlow/mlruns/0/d5b1806099f2465fbf3753d463798983/artifacts
+end_time: 1754070700860
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5b1806099f2465fbf3753d463798983
+run_name: glamorous-cow-164
+run_uuid: d5b1806099f2465fbf3753d463798983
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754070700769
+status: 3
+tags: []
+user_id: zeyne

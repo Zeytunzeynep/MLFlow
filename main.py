@@ -3,6 +3,13 @@ from src.ML_Project_w_MLFlow.pipeline.stage_01_data_ingestion import DataIngesti
 from src.ML_Project_w_MLFlow.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from src.ML_Project_w_MLFlow.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from src.ML_Project_w_MLFlow.pipeline.stage_04_manager_trainer import ModelTrainertrainingPipeline
+from src.ML_Project_w_MLFlow.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+
+import os
+
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/zeynepzeytun.2002/MLFlow.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "zeynepzeytun.2002"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "ac89574523f379583a7e25f934daca9ce4763e0e"
 
 
 STAGE_NAME= "Data Ingestion Stage"
@@ -58,4 +65,18 @@ try:
 except Exception as e:
        logger.exception(e)
        raise e
+
+
+STAGE_NAME = "Model Evaluation Stage"
+
+try:
+       logger.info(f">>>>{ STAGE_NAME}<<<<<")
+       data_ingestion = ModelEvaluationTrainingPipeline()
+       data_ingestion.main()
+       logger.info(f">>>>> {STAGE_NAME} bitti<<<<<")
+
+except Exception as e:
+      logger.exception(e)
+      raise e
+
        

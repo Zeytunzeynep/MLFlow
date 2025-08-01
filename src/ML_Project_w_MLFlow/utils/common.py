@@ -54,7 +54,7 @@ def save_json(path: Path, data:dict):
     with open(path,"w")as f:
         json.dump(data,f,indent=4)
 
-    logger.info(f"json file saved at :",{path})
+    logger.info(f"json file saved at :{path}")
 
 
 
@@ -67,7 +67,7 @@ def load_json(path:Path)->ConfigBox:
     with open(path) as f:
         content=json.load(f)
 
-    logger.info(f"json file loaded from:",{path})
+    logger.info(f"json file loaded from:{path}")
     return ConfigBox(content)
 
 
@@ -79,7 +79,7 @@ def save_bin(path:Path) -> Any:
 
 
     data=joblib.load(path)
-    logger.info(f"binary file loaded from:", {path})
+    logger.info(f"binary file loaded from:{path}")
     return data
 
 
