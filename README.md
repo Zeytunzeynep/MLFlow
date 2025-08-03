@@ -13,20 +13,7 @@
 
 
 
-import dagshub
-dagshub.init(repo_owner='zeynepzeytun.2002', repo_name='MLFlow', mlflow=True)
-
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
-
-
-  #382e013affcb271e0a5d02a011f6562549f786a0
 
 
 
-  ac89574523f379583a7e25f934daca9ce4763e0e
-
-  $env:MLFLOW_TRACKING_USERNAME = "zeynepzeytun.2002" 
-$env:MLFLOW_TRACKING_PASSWORD = "ac89574523f379583a7e25f934daca9ce4763e0e"
+ 
